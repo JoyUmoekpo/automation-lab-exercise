@@ -41,8 +41,8 @@ function crossOffMovie(event) {
         message.textContent = `${event.target.textContent} watched!`
     } else {
         message.textContent = `${event.target.textContent} added back!`
-    }
-
+    } 
+  
     revealMessage()
 }
 
